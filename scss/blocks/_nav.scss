@@ -15,13 +15,13 @@
     list-style-type: none;
 }
 .nav-items{
-    color:$text-main;
+    color:#48555B;
     font-size:12px;
     transition: all .2s ease-in;
 }
 .active{
-    color:$text-btn;
+    color:#00A4E5;
 }
 .nav-items:hover, .nav-items:active{
-    color:$text-btn;
+    color:#00A4E5;
 }
