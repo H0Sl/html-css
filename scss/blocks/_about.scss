@@ -1,5 +1,11 @@
 .about{
     margin-bottom:118px;
+    p{
+        width:405.08px;
+        span{
+            color:#00A4E5;
+        }
+    }
 }
 .about-title_text{
     text-transform:uppercase;
@@ -10,12 +16,6 @@
 }
 .line-about{
     margin:15px auto 60px;
-}
-.about p {
-    width:405.08px;
-}
-p span{
-    color:#00A4E5;
 }
 .basic-p{
     color:$text-main;

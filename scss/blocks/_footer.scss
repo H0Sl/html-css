@@ -5,25 +5,25 @@
 .footer-down{
     background-color:#171819;
     padding:22.5px 0;
-}
-.footer-down h4{
-    color:$text-white;
-    font-size:11px;
-    font-weight:400;
-    display:flex;
-    justify-content: center;
+    h4{
+        color:$text-white;
+        font-size:11px;
+        font-weight:400;
+        display:flex;
+        justify-content: center;
+    }
 }
 .names-items{
     padding-top:41px;
     display:grid;
     grid-template-columns:250px 262px 274px;
     gap:77px;
-}
-.names-items h4{
-    color:$text-white;
-    font-size:11px;
-    font-weight:400;
-    text-transform:uppercase;
+    h4{
+        color:$text-white;
+        font-size:11px;
+        font-weight:400;
+        text-transform:uppercase;
+    }
 }
 .company-items p{
     color:$text-white;
@@ -42,25 +42,25 @@
 }
 .ul-items{
     list-style-type: none;
-}
-.ul-items li{
-    margin-bottom:5px;
-}
-.ul-items li a{
-    color:$text-white;
-    font-size:11px;
-    text-transform:uppercase;
+    li{
+        margin-bottom:5px;
+        a{
+            color:$text-white;
+            font-size:11px;
+            text-transform:uppercase;
+        }
+    }
 }
 .contact-items{
     display:flex;
     gap:46px;
-}
-.contact-items p{
-    color:$text-white;
-    font-size:11px;
-    font-weight:400;
-    letter-spacing:0.85px;
-    margin-bottom:20px;
+    p{
+        color:$text-white;
+        font-size:11px;
+        font-weight:400;
+        letter-spacing:0.85px;
+        margin-bottom:20px;
+    }
 }
 .footer-media{
     display:flex;
