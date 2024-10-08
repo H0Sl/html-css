@@ -44,12 +44,12 @@
     list-style-type: none;
     li{
         margin-bottom:5px;
+        a {
+            color:#fff;
+            font-size:11px;
+            text-transform:uppercase;
+        }
     }
-}
-li a {
-    color:#fff;
-    font-size:11px;
-    text-transform:uppercase;
 }
 .contact-items{
     display:flex;
