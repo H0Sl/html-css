@@ -1,3 +1,11 @@
+@font-face{
+    font-family: 'Open Sans';
+    src:local('Open Sans'),url('/font/OpenSans-VariableFont_wdth,wght.ttf');
+}
+@font-face{
+    font-family: 'Bebas Neue';
+    src:local('Bebas Neue'),url('/font/BebasNeue-Regular.ttf')
+}
 .container {
     max-width:940px;
     margin:0 auto;

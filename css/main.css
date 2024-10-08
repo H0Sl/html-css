@@ -1,39 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
-
-.container {
-  max-width: 940px;
-  margin: 0 auto;
-}
-
-.line {
-  width: 50px;
-  height: 2px;
-  background-color: #00A4E5;
-}
-
-.btn-only {
-  width: 150px;
-  height: 40px;
-  background-color: #00A4E5;
-  color: white;
-  text-transform: uppercase;
-  font-size: 13px;
-  font-weight: 600;
-  -webkit-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
-  cursor: pointer;
-}
-
-.btn-only:hover, .btn-only:active {
-  color: black;
-}
-
 * {
-  font-family: "Open Sans", sans-serif;
   padding: 0px;
   margin: 0px;
   border: none;
+  font-family: "Open Sans", sans-serif;
 }
 
 *,
@@ -50,6 +19,42 @@ a, a:link, a:visited {
 
 a:hover {
   text-decoration: none;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: local("Open Sans"), url("/font/OpenSans-VariableFont_wdth,wght.ttf");
+}
+@font-face {
+  font-family: "Bebas Neue";
+  src: local("Bebas Neue"), url("/font/BebasNeue-Regular.ttf");
+}
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.line {
+  width: 50px;
+  height: 2px;
+  background-color: #00A4E5;
+}
+
+.btn-only {
+  width: 150px;
+  height: 40px;
+  background-color: #00A4E5;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 600;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+
+.btn-only:hover, .btn-only:active {
+  color: black;
 }
 
 .header {
@@ -76,7 +81,7 @@ a:hover {
 
 .text {
   text-align: center;
-  color: white;
+  color: #fff;
 }
 
 .text-down {
@@ -131,6 +136,12 @@ a:hover {
 .about {
   margin-bottom: 118px;
 }
+.about p {
+  width: 405.08px;
+}
+.about p span {
+  color: #00A4E5;
+}
 
 .about-title_text {
   text-transform: uppercase;
@@ -142,14 +153,6 @@ a:hover {
 
 .line-about {
   margin: 15px auto 60px;
-}
-
-.about p {
-  width: 405.08px;
-}
-
-p span {
-  color: #00A4E5;
 }
 
 .basic-p {
@@ -193,7 +196,7 @@ p span {
 
 .about-content_right-item-text {
   position: absolute;
-  color: white;
+  color: #fff;
   font-size: 25px;
   font-weight: 700;
   text-transform: uppercase;
@@ -213,14 +216,12 @@ p span {
   gap: 32px;
   margin-bottom: 76px;
 }
-
 .services-up p {
   font-size: 11px;
   letter-spacing: 0.2px;
   padding-left: 122px;
   color: #48555B;
 }
-
 .services-up h4 {
   text-transform: uppercase;
   font-size: 18px;
@@ -260,7 +261,6 @@ p span {
   background-image: url("/img/services/get-in-touch.png");
   height: 498px;
 }
-
 .get-in-touch h2 {
   color: #48555B;
   text-align: center;
@@ -283,6 +283,11 @@ p span {
 .signup {
   background-color: #171819;
 }
+.signup h4 {
+  color: #fff;
+  font-size: 24px;
+  letter-spacing: 0.85px;
+}
 
 .signup-flex {
   padding: 30px 0;
@@ -297,22 +302,14 @@ p span {
       -ms-flex-pack: center;
           justify-content: center;
 }
-
 .signup-flex div {
   margin: 0;
   padding: 0;
 }
-
 .signup-flex input {
   height: 40px;
   width: 218px;
   padding: 0 16px;
-}
-
-.signup h4 {
-  color: white;
-  font-size: 24px;
-  letter-spacing: 0.85px;
 }
 
 .footer-up {
@@ -324,9 +321,8 @@ p span {
   background-color: #171819;
   padding: 22.5px 0;
 }
-
 .footer-down h4 {
-  color: white;
+  color: #fff;
   font-size: 11px;
   font-weight: 400;
   display: -webkit-box;
@@ -343,16 +339,15 @@ p span {
   grid-template-columns: 250px 262px 274px;
   gap: 77px;
 }
-
 .names-items h4 {
-  color: white;
+  color: #fff;
   font-size: 11px;
   font-weight: 400;
   text-transform: uppercase;
 }
 
 .company-items p {
-  color: white;
+  color: #fff;
   font-size: 11px;
   font-weight: 400;
 }
@@ -375,13 +370,12 @@ p span {
 .ul-items {
   list-style-type: none;
 }
-
 .ul-items li {
   margin-bottom: 5px;
 }
 
-.ul-items li a {
-  color: white;
+li a {
+  color: #fff;
   font-size: 11px;
   text-transform: uppercase;
 }
@@ -392,9 +386,8 @@ p span {
   display: flex;
   gap: 46px;
 }
-
 .contact-items p {
-  color: white;
+  color: #fff;
   font-size: 11px;
   font-weight: 400;
   letter-spacing: 0.85px;
