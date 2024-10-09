@@ -29,6 +29,14 @@ a:hover {
   font-family: "Bebas Neue";
   src: local("Bebas Neue"), url("../font/BebasNeue-Regular.ttf");
 }
+* {
+  max-width: 1440px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
   max-width: 940px;
   margin: 0 auto;
@@ -59,7 +67,8 @@ a:hover {
 
 .header {
   background-image: url("../img/header.png");
-  height: 769px;
+  max-width: 100vw;
+  background-repeat: no-repeat;
 }
 
 .header__logo {
@@ -85,10 +94,21 @@ a:hover {
 }
 
 .header__text-down {
+  display: inline-block;
   font-size: 11px;
   font-weight: 300;
   letter-spacing: 3px;
-  padding-top: 221px;
+  margin-top: 221px;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+.header__text-down a {
+  color: white;
+}
+
+.header__text-down:hover {
+  font-size: 13px;
 }
 
 .nav {
@@ -172,21 +192,17 @@ a:hover {
 }
 
 .about__content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  display: grid;
+  grid-template-columns: auto auto;
 }
 
 .about__content-right {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   gap: 20px;
 }
 
