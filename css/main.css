@@ -258,7 +258,7 @@ a:hover {
 }
 
 .get-in-touch {
-  background-image: url("/img/services/get-in-touch.png");
+  background-image: url("img/services/get-in-touch.png");
   height: 498px;
 }
 .get-in-touch h2 {
