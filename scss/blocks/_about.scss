@@ -1,0 +1,53 @@
+.about{
+    margin-bottom:118px;
+    p{
+        width:405.08px;
+    }
+}
+.about__title-text{
+    text-transform:uppercase;
+    color:#48555B;
+    font-size:18px;
+    letter-spacing:2.31px;
+    text-align:center;
+}
+.about__line{
+    margin:15px auto 60px;
+}
+.content-left__basic-p{
+    color:#48555B;
+    font-size:20px;
+    font-weight:600;
+    text-align:left;
+    span{
+        color:#00A4E5;
+    }
+}
+.content-left__nobasic-p{
+    margin-top:26px;
+    color:#48555B;
+    font-size:13px;
+    letter-spacing:0.19px;
+    font-weight:400;
+    text-align:left;
+}
+.about__content{
+    display:flex;
+    justify-content:space-between;
+}
+.about__content-right{
+    display:flex;
+    align-items:flex-end;
+    gap:20px;
+}
+.content-right__items{
+    position:relative;
+}
+.content-right__items_text{
+    position:absolute;
+    color:#fff;
+    font-size:25px;
+    font-weight:700;
+    text-transform:uppercase;
+    padding:15px 14px
+}

@@ -1,0 +1,28 @@
+.header {
+    background-image: url('/img/header.png');
+    height: 769px;
+}
+.header__logo{
+    padding-top:41px;
+    text-align:center;
+}
+.header__text-title{
+    font:60px/1 "Bebas Neue", sans-serif;;
+    font-weight:500;
+    padding-top:317px;
+    letter-spacing:5.71px;
+}
+.header__text-up{
+    font-size:16px;
+    font-weight:400;
+}
+.header__text{
+    text-align:center;
+    color:#fff;
+}
+.header__text-down{
+    font-size:11px;
+    font-weight:300;
+    letter-spacing:3px;
+    padding-top:221px;
+}

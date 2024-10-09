@@ -1,0 +1,20 @@
+.signup{
+    background-color:#171819;
+    h4{
+        color:#fff;
+        font-size:24px;
+        letter-spacing:0.85px;
+    }
+}
+.signup__flex{
+    padding:30px 0;
+    display:flex;
+    align-items:center;
+    gap:70px;
+    justify-content:center;
+    input{
+        height:40px;
+        width:218px;
+        padding:0 16px;
+    }   
+}

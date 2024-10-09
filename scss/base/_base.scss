@@ -1,0 +1,32 @@
+@font-face{
+    font-family: 'Open Sans';
+    src:local('Open Sans'),url('/font/OpenSans-VariableFont_wdth,wght.ttf');
+}
+@font-face{
+    font-family: 'Bebas Neue';
+    src:local('Bebas Neue'),url('/font/BebasNeue-Regular.ttf')
+}
+.container {
+    max-width:940px;
+    margin:0 auto;
+}
+.line{
+    width: 50px;
+    height:2px;
+    background-color:#00A4E5;
+}
+//btn
+.btn-only{
+    width:150px;
+    height:40px;
+    background-color:#00A4E5;
+    color:#fff;
+    text-transform:uppercase;
+    font-size:13px;
+    font-weight:600;
+    transition: all .2s ease-in;
+    cursor:pointer;
+}
+.btn-only:hover,.btn-only:active{
+    color:black;
+}
