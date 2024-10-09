@@ -1,7 +1,7 @@
 .services{
     margin-bottom:115px;
 }
-.services-up{
+.services__up{
     display:grid;
     grid-template-columns:199px auto 150px;
     align-items:center;
@@ -23,16 +23,16 @@
 }
 
 //DOWN
-.down-items{
+.services-down__items{
     display:grid;
     grid-template-columns:repeat(3,295px);
     gap:27.5px;
 }
-.down-item{
+.services-down__item{
     border:1px solid #E6E6E6;
     padding:38px 23px;
 }
-.down-item_title{
+.services-down__item_title{
     color:#48555B;
     text-transform:uppercase;
     font-size:16px;
@@ -40,7 +40,7 @@
     font-weight:600;
     margin:25px 0 13px;
 }
-.down-item_text{
+.services-down__item_text{
     color:#48555B;
     font-size:13px;
     font-weight:400;

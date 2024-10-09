@@ -1,8 +1,8 @@
-.footer-up{
+.footer__up{
     height:240px;
     background-color:#141A20;
 }
-.footer-down{
+.footer__down{
     background-color:#171819;
     padding:22.5px 0;
     h4{
@@ -13,7 +13,7 @@
         justify-content: center;
     }
 }
-.names-items{
+.footer-up__names-items{
     padding-top:41px;
     display:grid;
     grid-template-columns:250px 262px 274px;
@@ -25,7 +25,7 @@
         text-transform:uppercase;
     }
 }
-.company-items p{
+.names-items__company p{
     color:#fff;
     font-size:11px;
     font-weight:400;
@@ -33,7 +33,7 @@
 .footer-items_names{
     margin-bottom:15px;
 }
-.company-items img{
+.names-items__company img{
     margin-bottom:15px;
 }
 .links-items{

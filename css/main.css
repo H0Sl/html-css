@@ -62,29 +62,29 @@ a:hover {
   height: 769px;
 }
 
-.header-logo {
+.header__logo {
   padding-top: 41px;
   text-align: center;
 }
 
-.title-text {
+.header__text-title {
   font: 60px/1 "Bebas Neue", sans-serif;
   font-weight: 500;
   padding-top: 317px;
   letter-spacing: 5.71px;
 }
 
-.text-up {
+.header__text-up {
   font-size: 16px;
   font-weight: 400;
 }
 
-.text {
+.header__text {
   text-align: center;
   color: #fff;
 }
 
-.text-down {
+.header__text-down {
   font-size: 11px;
   font-weight: 300;
   letter-spacing: 3px;
@@ -96,7 +96,7 @@ a:hover {
   margin-bottom: 58px;
 }
 
-.nav-content {
+.nav__content {
   padding: 24px 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -109,7 +109,7 @@ a:hover {
           align-items: center;
 }
 
-.nav-bar ul {
+.content-right__items {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -118,14 +118,14 @@ a:hover {
   list-style-type: none;
 }
 
-.nav-items {
+.content-right__item {
   color: #48555B;
   font-size: 12px;
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
 }
 
-.active {
+.content-right__item_active {
   color: #00A4E5;
 }
 
@@ -139,11 +139,8 @@ a:hover {
 .about p {
   width: 405.08px;
 }
-.about p span {
-  color: #00A4E5;
-}
 
-.about-title_text {
+.about__title-text {
   text-transform: uppercase;
   color: #48555B;
   font-size: 18px;
@@ -151,18 +148,21 @@ a:hover {
   text-align: center;
 }
 
-.line-about {
+.about__line {
   margin: 15px auto 60px;
 }
 
-.basic-p {
+.content-left__basic-p {
   color: #48555B;
   font-size: 20px;
   font-weight: 600;
   text-align: left;
 }
+.content-left__basic-p span {
+  color: #00A4E5;
+}
 
-.nobasic-p {
+.content-left__nobasic-p {
   margin-top: 26px;
   color: #48555B;
   font-size: 13px;
@@ -171,7 +171,7 @@ a:hover {
   text-align: left;
 }
 
-.about-content {
+.about__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -180,7 +180,7 @@ a:hover {
           justify-content: space-between;
 }
 
-.about-content_right {
+.about__content-right {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -190,11 +190,11 @@ a:hover {
   gap: 20px;
 }
 
-.about-content_right-items {
+.content-right__items {
   position: relative;
 }
 
-.about-content_right-item-text {
+.content-right__items_text {
   position: absolute;
   color: #fff;
   font-size: 25px;
@@ -207,7 +207,7 @@ a:hover {
   margin-bottom: 115px;
 }
 
-.services-up {
+.services__up {
   display: grid;
   grid-template-columns: 199px auto 150px;
   -webkit-box-align: center;
@@ -216,13 +216,13 @@ a:hover {
   gap: 32px;
   margin-bottom: 76px;
 }
-.services-up p {
+.services__up p {
   font-size: 11px;
   letter-spacing: 0.2px;
   padding-left: 122px;
   color: #48555B;
 }
-.services-up h4 {
+.services__up h4 {
   text-transform: uppercase;
   font-size: 18px;
   letter-spacing: 2px;
@@ -230,18 +230,18 @@ a:hover {
   color: #48555B;
 }
 
-.down-items {
+.services-down__items {
   display: grid;
   grid-template-columns: repeat(3, 295px);
   gap: 27.5px;
 }
 
-.down-item {
+.services-down__item {
   border: 1px solid #E6E6E6;
   padding: 38px 23px;
 }
 
-.down-item_title {
+.services-down__item_title {
   color: #48555B;
   text-transform: uppercase;
   font-size: 16px;
@@ -250,7 +250,7 @@ a:hover {
   margin: 25px 0 13px;
 }
 
-.down-item_text {
+.services-down__item_text {
   color: #48555B;
   font-size: 13px;
   font-weight: 400;
@@ -289,7 +289,7 @@ a:hover {
   letter-spacing: 0.85px;
 }
 
-.signup-flex {
+.signup__flex {
   padding: 30px 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -302,26 +302,22 @@ a:hover {
       -ms-flex-pack: center;
           justify-content: center;
 }
-.signup-flex div {
-  margin: 0;
-  padding: 0;
-}
-.signup-flex input {
+.signup__flex input {
   height: 40px;
   width: 218px;
   padding: 0 16px;
 }
 
-.footer-up {
+.footer__up {
   height: 240px;
   background-color: #141A20;
 }
 
-.footer-down {
+.footer__down {
   background-color: #171819;
   padding: 22.5px 0;
 }
-.footer-down h4 {
+.footer__down h4 {
   color: #fff;
   font-size: 11px;
   font-weight: 400;
@@ -333,20 +329,20 @@ a:hover {
           justify-content: center;
 }
 
-.names-items {
+.footer-up__names-items {
   padding-top: 41px;
   display: grid;
   grid-template-columns: 250px 262px 274px;
   gap: 77px;
 }
-.names-items h4 {
+.footer-up__names-items h4 {
   color: #fff;
   font-size: 11px;
   font-weight: 400;
   text-transform: uppercase;
 }
 
-.company-items p {
+.names-items__company p {
   color: #fff;
   font-size: 11px;
   font-weight: 400;
@@ -356,7 +352,7 @@ a:hover {
   margin-bottom: 15px;
 }
 
-.company-items img {
+.names-items__company img {
   margin-bottom: 15px;
 }
 
@@ -373,8 +369,7 @@ a:hover {
 .ul-items li {
   margin-bottom: 5px;
 }
-
-li a {
+.ul-items li a {
   color: #fff;
   font-size: 11px;
   text-transform: uppercase;

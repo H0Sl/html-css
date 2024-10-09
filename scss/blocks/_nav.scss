@@ -2,24 +2,24 @@
     border-bottom:1px solid #E6E6E6;
     margin-bottom:58px;
 }
-.nav-content{
+.nav__content{
     padding: 24px 0;
     display:flex;
     justify-content: space-between;
     align-items:center;
 }
-.nav-bar ul{
+.content-right__items{
     display:flex;
     gap:30px;
     text-transform:uppercase;
     list-style-type: none;
 }
-.nav-items{
+.content-right__item{
     color:#48555B;
     font-size:12px;
     transition: all .2s ease-in;
 }
-.active{
+.content-right__item_active{
     color:#00A4E5;
 }
 .nav-items:hover, .nav-items:active{
