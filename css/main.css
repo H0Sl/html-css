@@ -23,11 +23,11 @@ a:hover {
 
 @font-face {
   font-family: "Open Sans";
-  src: local("Open Sans"), url("font/OpenSans-VariableFont_wdth,wght.ttf");
+  src: local("Open Sans"), url("../font/OpenSans-VariableFont_wdth,wght.ttf");
 }
 @font-face {
   font-family: "Bebas Neue";
-  src: local("Bebas Neue"), url("font/BebasNeue-Regular.ttf");
+  src: local("Bebas Neue"), url("../font/BebasNeue-Regular.ttf");
 }
 .container {
   max-width: 940px;
@@ -58,7 +58,7 @@ a:hover {
 }
 
 .header {
-  background-image: url("./img/header.png");
+  background-image: url("../img/header.png");
   height: 769px;
 }
 
@@ -258,7 +258,7 @@ a:hover {
 }
 
 .get-in-touch {
-  background-image: url("./img/services/get-in-touch.png");
+  background-image: url("../img/services/get-in-touch.png");
   height: 498px;
 }
 .get-in-touch h2 {
