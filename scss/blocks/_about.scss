@@ -1,8 +1,8 @@
 .about{
     margin-bottom:118px;
-    p{
-        width:405.08px;
-    }
+    // p{
+    //     width:405.08px;
+    // }
 }
 .about__title-text{
     text-transform:uppercase;
@@ -33,7 +33,7 @@
 }
 .about__content{
     display:grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 28vw auto;
 }
 .about__content-right{
     display:flex;

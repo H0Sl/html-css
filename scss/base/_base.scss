@@ -6,14 +6,12 @@
     font-family: 'Bebas Neue';
     src:local('Bebas Neue'),url('../font/BebasNeue-Regular.ttf')
 }
-*{
-    max-width:1440px;
-}
 html{
     scroll-behavior: smooth;
 }
 .container {
-    max-width:940px;
+    max-width:67.4vw;
+    padding: 0 15px;
     margin:0 auto;
 }
 .line{
