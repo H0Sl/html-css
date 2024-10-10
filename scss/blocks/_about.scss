@@ -1,8 +1,8 @@
 .about{
     margin-bottom:118px;
-    p{
-        width:405.08px;
-    }
+    // p{
+    //     width:405.08px;
+    // }
 }
 .about__title-text{
     text-transform:uppercase;
@@ -32,13 +32,14 @@
     text-align:left;
 }
 .about__content{
-    display:flex;
-    justify-content:space-between;
+    display:grid;
+    grid-template-columns: calc(100% - 540px) auto;
 }
 .about__content-right{
     display:flex;
-    align-items:flex-end;
-    gap:20px;
+    justify-content: flex-end;
+    gap:2vw
+    // gap:20px;
 }
 .content-right__items{
     position:relative;

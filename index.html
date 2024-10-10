@@ -17,19 +17,19 @@
             <div class="header__text">
                 <h1 class="header__text-title">PARTNER WITH KONSTUCT</h1>
                 <h3 class="header__text-up">An award-winning construction management firm</h3>
-                <h3 class="header__text-down">SCROLL DOWN</h3>
+                <h3 class="header__text-down"><a href="#nav">SCROLL DOWN</a></h3>
             </div>
         </div>
     </div>
-    <div class="nav">
+    <div class="nav" id="nav">
         <div class="container">
             <div class="nav__content">
-                <div class="nav__content-left">
+                <div class="nav-content__left">
                     <a href="#">
                         <img src="img/projeco-logo-black.svg" alt="">
                     </a>
                 </div>
-                <div class="nav__content-right">
+                <div class="nav-content__right">
                     <nav class="content-right__nav-bar">
                         <ul class="content-right__items">
                             <li><a class="content-right__item" href="#">home</a></li>
@@ -77,10 +77,11 @@
                     <div class="line"></div>
                 </div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore tenetur perferendis, quos reprehenderit porro</p>
-                <button class="btn-only">all services</button>
+                <div class="services-up__btn">
+                    <button class="btn-only">all services</button>
+                </div>
             </div>
-            <div class="services__down">
-                <div class="services-down__items">
+            <div class="services__down-items">
                     <div class="services-down__item">
                         <img src="img/services/1.png" alt="">
                         <h3 class="services-down__item_title">project and construction management</h3>
@@ -96,7 +97,6 @@
                         <h3 class="services-down__item_title">factory construction and modeling</h3>
                         <p class="services-down__item_text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum error dicta optio eligendi assumenda sequi quo laboriosam voluptate ut esse neque impedit ipsa dolor unde.</p>
                     </div>
-                </div>
             </div>
         </div>
     </div>
@@ -122,14 +122,14 @@
     <div class="footer">
         <div class="footer__up">
             <div class="container">
-                <div class="footer-up__names-items">
-                    <div class="names-items__company">
-                        <h4 class="footer-items_names">company</h4>
+                <div class="footer-up__items">
+                    <div class="footer-up__item">
+                        <h4 class="footer-item__name">company</h4>
                         <img src="img/header-ogo.svg" alt="">
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias atque quibusdam, magnam odio corporis quod? Nam sunt voluptatum necessitatibus ipsam. A, ex ullam quas natus animi quisquam itaque nisi nam!</p>
                     </div>
-                    <div>
-                        <h4 class="footer-items_names">links</h4>
+                    <div class="footer-up__item">
+                        <h4 class="footer-item__name">links</h4>
                         <div class="links-items">
                             <div>
                                 <ul class="ul-items">
@@ -156,8 +156,8 @@
                             </div>
                         </div>
                     </div>
-                    <div>
-                        <h4 class="footer-items_names">contact us</h4>
+                    <div class="footer-up__item">
+                        <h4 class="footer-item__name">contact us</h4>
                         <div class="contact-items">
                             <div>
                                 <p>213 Baker Street<br>

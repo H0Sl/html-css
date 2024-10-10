@@ -3,14 +3,14 @@
 }
 .services__up{
     display:grid;
-    grid-template-columns:199px auto 150px;
+    grid-template-columns:32.33% 44.66% 20%;
+    gap:1.5%;
     align-items:center;
-    gap:32px;
+    justify-content:space-between;
     margin-bottom:76px;
     p{
         font-size:11px;
         letter-spacing:0.2px;
-        padding-left:122px;
         color:#48555B;
     }
     h4{
@@ -21,12 +21,16 @@
         color:#48555B;
     }
 }
+.services-up__btn{
+    display:flex;
+    justify-content: flex-end;
+}
 
 //DOWN
-.services-down__items{
+.services__down-items{
     display:grid;
-    grid-template-columns:repeat(3,295px);
-    gap:27.5px;
+    grid-template-columns:repeat(3,32.33%);
+    gap:1.5%;
 }
 .services-down__item{
     border:1px solid #E6E6E6;
