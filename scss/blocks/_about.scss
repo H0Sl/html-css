@@ -33,12 +33,13 @@
 }
 .about__content{
     display:grid;
-    grid-template-columns: 28vw auto;
+    grid-template-columns: calc(100% - 540px) auto;
 }
 .about__content-right{
     display:flex;
     justify-content: flex-end;
-    gap:20px;
+    gap:2vw
+    // gap:20px;
 }
 .content-right__items{
     position:relative;
