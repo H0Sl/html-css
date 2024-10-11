@@ -65,3 +65,19 @@
         grid-template-columns:100%;
     }
 }
+@media (min-width:767px){
+    .nav-bar__items{
+        display:flex;
+        align-items:center;
+    }
+    .nav-bar__items > li{
+        padding:10px 0;
+    }
+    .nav-bar__sub-list {
+        transform:translate(0px, 10px);
+        opacity:0;
+        visibility:hidden;
+        pointer-events:none;
+        transition:all .3s ease .0s;
+    }
+}
