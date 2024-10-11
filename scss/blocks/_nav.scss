@@ -10,7 +10,7 @@
 }
 .nav-bar__items{
     // display:flex;
-    gap:30px;
+    gap:2vw;
     text-transform:uppercase;
     list-style-type: none;
     position:relative;
@@ -30,7 +30,7 @@
     list-style-type: none;
     top:100%;
     background-color: #48555B;
-    padding:15px;
+    padding:10px;
     min-width:120px;
 }
 .nav-bar__sub-list > li{
@@ -46,6 +46,10 @@
     text-decoration:underline;
 }
 .menu__arrow{
+    display:none;
+}
+// --------------------
+.menu__icon{
     display:none;
 }
 //-------------------------------
