@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Konstruct</title>
     <link rel="stylesheet" href="./css/main.css">
+    <script src="app/app.js" defer></script>
 </head>
 <body>
     <div class="header">
@@ -31,14 +32,42 @@
                 </div>
                 <div class="nav-content__right">
                     <nav class="content-right__nav-bar">
-                        <ul class="content-right__items">
-                            <li><a class="content-right__item" href="#">home</a></li>
-                            <li><a class="content-right__item content-right__item_active" href="#">about</a></li>
-                            <li><a class="content-right__item" href="#">services</a></li>
-                            <li><a class="content-right__item" href="#">work</a></li>
-                            <li><a class="content-right__item" href="#">contact</a></li>
+                        <ul class="nav-bar__items">
+                            <li><a class="nav-bar__item" href="#">home</a></li>
+                            <li>
+                                <a class="nav-bar__item" href="#">about</a>
+                                <span class="menu__arrow"></span>
+                                <ul class="nav-bar__sub-list">
+                                    <li>
+                                        <a href="#" class="nav-bar__sub-link">about 1</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="nav-bar__sub-link">about 2</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                    <a class="nav-bar__item" href="#">services</a>
+                                    <span class="menu__arrow"></span>
+                                    <ul class="nav-bar__sub-list">
+                                        <li>
+                                            <a href="#" class="nav-bar__sub-link">services 1</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="nav-bar__sub-link">services 2</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="nav-bar__sub-link">services 3</a>
+                                        </li>
+                                    </ul>
+                            </li>
+                            <li><a class="nav-bar__item" href="#">work</a></li>
+                            <li><a class="nav-bar__item" href="#">contact</a></li>
                         </ul>
                     </nav>
+                    <div class="menu__icon">
+                        <span></span>
+                    </div>
                 </div>
             </div>
         </div>
