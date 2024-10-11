@@ -620,6 +620,9 @@ body._pc .nav-bar__items > li:hover .nav-bar__sub-list {
     margin: 5px 0 0 0;
     display: none;
   }
+  .nav-bar__item {
+    pointer-events: none;
+  }
   .nav-bar__items > li._active .nav-bar__sub-list {
     display: block;
   }
