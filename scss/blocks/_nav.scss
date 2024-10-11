@@ -29,7 +29,7 @@
     position:absolute;
     list-style-type: none;
     top:100%;
-    background-color: gray;
+    background-color: #48555B;
     padding:15px;
     min-width:120px;
 }
@@ -45,6 +45,39 @@
 .nav-bar__sub-link:hover{
     text-decoration:underline;
 }
+.menu__arrow{
+    display:none;
+}
+//-------------------------------
+body._touch .nav-bar__item {
+    flex:1 1 auto;
+}
+body._touch .nav-bar__items > li{
+    display:flex;
+    align-items:center;
+}
+body._touch .menu__arrow{
+    display:block;
+    width:0;
+    height:0;
+    margin:0px 0px 0px 5px;
+    transition:transform .3s ease 0s;
+    border-left:5px solid transparent;
+    border-right:5px solid transparent;
+    border-top:10px solid #48555B;
+}
+body._touch .nav-bar__items > li._active .nav-bar__sub-list {
+    opacity:1;
+    visibility:visible;
+    transform:translate(0px,0px);
+    pointer-events:all;
+}
+body._touch .nav-bar__items > li._active .menu__arrow{
+    transform:rotate(-180deg);
+}
+
+
+
 body._pc .nav-bar__items > li:hover .nav-bar__sub-list {
     opacity:1;
     visibility:visible;
